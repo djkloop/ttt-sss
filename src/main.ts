@@ -1,3 +1,6 @@
+document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></script>');
+import { extend } from './utils'
+
 interface DScrollOptions {
     el: Element
     opts?: Object
@@ -13,7 +16,7 @@ class DScroll implements DScrollOptions {
     }
 
     private _init() {
-        console.log(this.opts, this.el)
+
     }
 }
 
